@@ -2,14 +2,14 @@
     <h1 class="titulos">Página de Scripts CSS</h1>
     <div class="postagens">
         <h1 class="titulos">Título da Postagem</h1>
-        <img src="imagens/postagem1.jpg" class="imagem">
+        <img src="imagens/foto1.jpg" class="imagem">
         <p class="paragrafo">Parágrafo provisório...</p>
         <span class="data">19/06/2017</span>
     </div>
 
     <div class="postagens">
         <h1 class="titulos">Título da Postagem</h1>
-        <img src="imagens/postagem2.jpg" class="imagem">
+        <img src="imagens/foto2.jpg" class="imagem">
         <p class="paragrafo">Parágrafo provisório...</p>
         <span class="data">19/06/2017</span>
     </div>
