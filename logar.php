@@ -12,7 +12,15 @@ if($email != ""  && $senha != ""){
         $senha_user = $line['senha'];
     }
     if($registro == true){
-
+        if($senha_user == $senha){
+            SESSION_START();
+            $_SESSION['login'] = $email;
+            $_SESSION['password'] = $senha;
+            //echo "Login";
+        }else{
+            echo "Senha não confere com o que tem no cadastro";
+            echo "<a href='login.php'>Voltar a tela de Login</a>";
+        }
     }else{
         echo "Você não possui cadastro. Deseja se cadastrar?";
         echo "<a href='form_cadastro.php'>Cadastre-se</a>";
