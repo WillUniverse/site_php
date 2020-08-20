@@ -50,7 +50,7 @@ border: 0px solid #F00;}
 .campo2{width: 80%;margin: 10px 10%;min-height: 150px;float: left;padding: 2px;}
 .bt_enviar{float: left;margin-left: 10%;padding: 5px;font-size: 16px;}
 .legenda{float: left;margin-left: 10%;font-size: 16px;}
-#box_form{width:80%;min-height:300px;background-color:#FFF;margin:40px auto; overflow:hidden;}
+#box_form, #box_log{width:80%;min-height:300px;background-color:#FFF;margin:40px auto; overflow:hidden;}
 .bt_cad{float:left;font-size:16px;padding:5px;margin-right:5px;}
 .form_link{color: #59f;font-size:16px;float:left;}
 .p_form{color:#333;font-size:16px;float:left;width:100%}

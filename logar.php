@@ -10,12 +10,18 @@ if($email != ""  && $senha != ""){
     $registro = mysqli_num_rows($sql);
     while($line = mysqli_fetch_array($sql)){
         $senha_user = $line['senha'];
+        $nivel = $line['nivel'];
     }
     if($registro == true){
         if($senha_user == $senha){
             SESSION_START();
             $_SESSION['login'] = $email;
             $_SESSION['password'] = $senha;
+            if($nivel == 1){
+                header('location:adm.php');
+            }else {
+                header('location:cliente.php');
+            }
             //echo "Login";
         }else{
             echo "Senha não confere com o que tem no cadastro";
